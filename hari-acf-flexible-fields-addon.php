@@ -7,7 +7,7 @@
  * Author URI:      https://vanpariyar.in
  * Text Domain:     hari-acf-flexible-fields-addon
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         1.0.0
  *
  * @package         Hari_Acf_Flexible_Fields_Addon
  */
@@ -42,7 +42,7 @@ class Hari_Acf_Flexible_Fields_Addon {
     public static function get_instance() {
 
 		if ( null == self::$instance ) {
-			self::$instance = new PageTemplater();
+			self::$instance = new Hari_Acf_Flexible_Fields_Addon();
 		}
 
 		return self::$instance;
