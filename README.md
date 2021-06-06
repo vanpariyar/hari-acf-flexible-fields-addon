@@ -18,7 +18,9 @@
  
 <button> <?php get_sub_field('button_text'); ?> </button>
 
-?>
 ```
 
 ### add more fields and enjoy :tada:
+
+### Know More About
+ACF - Flexible Fields https://www.advancedcustomfields.com/resources/flexible-content/
